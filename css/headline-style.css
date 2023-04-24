@@ -1,0 +1,103 @@
+#headline {
+  width: 100%;
+  background-image: url("../images/mobileBackground.png");
+  background-size: contain;
+  margin-top: 3rem;
+}
+
+#headline.active {
+  margin-top: 0;
+}
+
+.title {
+  padding: 5rem 0.8rem 0.5rem;
+}
+
+.title h3 {
+  color: #ec5242;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.title h1 {
+  color: #ec5242;
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+
+.programInfo {
+  margin: 0 0.8rem 1rem;
+  background-color: #f8f8f8;
+  border: 3px solid #fff;
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: #515151;
+  font-weight: 600;
+}
+
+.programDate {
+  font-size: 1.5rem;
+  color: #515151;
+  font-weight: 800;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.programLocation {
+  font-size: 1rem;
+  color: #515151;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  #headline {
+    background-image: url("../images/desktopBackground.png");
+    margin-top: 7rem;
+  }
+  
+  .title {
+    padding: 5rem 8rem 1rem;
+  }
+
+  #headline {
+    position: absolute;
+    top: 0;
+    transform: translate(0, 0.6%);
+  }
+
+  .title h3 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+  
+  .title h1 {
+    font-size: 7rem;
+    padding-bottom: 1rem;
+  }
+
+  .programInfo {
+    width: 45rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #515151;
+    font-weight: 600;
+  }
+
+  .programDate {
+    font-size: 3rem;
+    color: #515151;
+    font-weight: 800;
+    padding-left: 8rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .programLocation {
+    font-size: 1.25rem;
+    color: #515151;
+    font-weight: 600;
+    padding-left: 8rem;
+  }
+}

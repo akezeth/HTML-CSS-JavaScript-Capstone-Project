@@ -1,0 +1,166 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 4px 4px 4px #00000056;
+  z-index: 2;
+}
+
+.navTop {
+  display: none;
+}
+
+.navBottom {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+  padding-left: 5rem;
+}
+
+.logo.active {
+  display: none;
+}
+
+#menuIcon {
+  position: absolute;
+  left: 0;
+  top: 0.8rem;
+  padding-left: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #272a31;
+}
+
+nav {
+  display: none;
+}
+
+nav a {
+  display: none;
+}
+
+.navBottom.active {
+  display: block;
+  justify-content: left;
+  width: 50%;
+}
+
+nav.active {
+  display: block;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding: 4rem 1rem;
+}
+
+nav.active a {
+  display: block;
+  width: 100%;
+  padding: 2rem 0 1rem 1rem;
+  color: #272a31;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: 0.1s;
+  border-bottom: 1px solid #ec5242;
+  margin-right: 2rem;
+}
+
+nav a:hover {
+  color: #ec5242;
+}
+
+@media (min-width: 768px) { 
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px #00000056;
+    z-index: 2;
+  }
+  
+  .navTop {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem 6rem;
+    gap: 2rem;
+    background-color: #272a31;
+  }
+  
+  .navTop a {
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .navBottom {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+  }
+  
+  .logo {
+    width: 80%;
+    padding-left: 0;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #272a31;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.1s;
+  }
+  
+  nav a:is(:link, :active, :visited).active {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+  }
+
+  #menuIcon {
+    display: none;
+  }
+}
