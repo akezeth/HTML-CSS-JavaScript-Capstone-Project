@@ -3,6 +3,7 @@
   background-image: url("../images/mobileBackground.png");
   background-size: contain;
   margin-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 #headline.active {
@@ -10,7 +11,7 @@
 }
 
 .title {
-  padding: 5rem 0.8rem 0.5rem;
+  padding: 3rem 0.8rem 0.5rem;
 }
 
 .title h3 {
@@ -25,7 +26,7 @@
   padding-bottom: 1rem;
 }
 
-.programInfo {
+.confrenceInfo {
   margin: 0 0.8rem 1rem;
   background-color: #f8f8f8;
   border: 3px solid #fff;
@@ -35,7 +36,7 @@
   font-weight: 600;
 }
 
-.programDate {
+.confrenceDate {
   font-size: 1.5rem;
   color: #515151;
   font-weight: 800;
@@ -43,27 +44,24 @@
   padding-bottom: 0.25rem;
 }
 
-.programLocation {
+.confrenceLocation {
   font-size: 1rem;
   color: #515151;
   font-weight: 600;
   padding-left: 1rem;
 }
 
+
+
 @media (min-width: 768px) {
   #headline {
     background-image: url("../images/desktopBackground.png");
     margin-top: 7rem;
+    padding-bottom: 6rem;
   }
   
   .title {
     padding: 5rem 8rem 1rem;
-  }
-
-  #headline {
-    position: absolute;
-    top: 0;
-    transform: translate(0, 0.6%);
   }
 
   .title h3 {
@@ -76,7 +74,7 @@
     padding-bottom: 1rem;
   }
 
-  .programInfo {
+  .confrenceInfo {
     width: 45rem;
     margin-left: 8rem;
     margin-bottom: 1rem;
@@ -86,7 +84,7 @@
     font-weight: 600;
   }
 
-  .programDate {
+  .confrenceDate {
     font-size: 3rem;
     color: #515151;
     font-weight: 800;
@@ -94,7 +92,7 @@
     padding-bottom: 0.25rem;
   }
   
-  .programLocation {
+  .confrenceLocation {
     font-size: 1.25rem;
     color: #515151;
     font-weight: 600;
