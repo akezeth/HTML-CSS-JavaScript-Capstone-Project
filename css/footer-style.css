@@ -10,3 +10,9 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .homepageFooter {
+    display: none;
+  }
+}
