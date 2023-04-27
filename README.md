@@ -29,7 +29,7 @@
 
 # 📖 [HTML-CSS-JavaScript Capstone Project] <a name="about-project"></a>
 
-**HTML-CSS-JavaScript Capstone Project** is my first microverse capstone project. I created it using HTML, CSS and JavaScript. [check out this loom recording]().
+**HTML-CSS-JavaScript Capstone Project** is my first microverse capstone project. I created it using HTML, CSS and JavaScript. [check out this loom recording](https://www.loom.com/share/fa993541cff246f8af1a4e6ff2fbe65e).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
