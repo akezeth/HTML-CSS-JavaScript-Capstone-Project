@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 html * {
   margin: 0;
   padding: 0;
@@ -76,7 +77,6 @@ nav a {
 nav.active {
   display: block;
   min-height: 100vh;
-  padding-top: 5rem;
   padding: 4rem 1rem;
 }
 
@@ -96,7 +96,7 @@ nav a:hover {
   color: #ec5242;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   header {
     position: fixed;
     top: 0;
@@ -106,46 +106,13 @@ nav a:hover {
     box-shadow: 4px 4px 4px #00000056;
     z-index: 2;
   }
-  
-  .navTop {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 0.5rem 6rem;
-    gap: 2rem;
-    background-color: #272a31;
-  }
-  
-  .navTop a {
-    color: #d3d3d3;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  
-  .navBottom {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 5rem;
-  }
-  
-  .logo {
-    width: 80%;
-    padding-left: 0;
-  }
-  
-  .navigation {
-    display: flex;
-    align-items: center;
-  }
 
   nav {
     display: flex;
     align-items: center;
     gap: 2rem;
   }
-  
+
   nav a {
     display: block;
     padding: 0.5rem 1rem;
@@ -154,10 +121,43 @@ nav a:hover {
     font-size: 1rem;
     transition: 0.1s;
   }
-  
+
   nav a:is(:link, :active, :visited).active {
     color: #ec5242;
     border: 3px solid #ec5242;
+  }
+
+  .navTop {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5rem 6rem;
+    gap: 2rem;
+    background-color: #272a31;
+  }
+
+  .navTop a {
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .navBottom {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+  }
+
+  .logo {
+    width: 80%;
+    padding-left: 0;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
   }
 
   #menuIcon {

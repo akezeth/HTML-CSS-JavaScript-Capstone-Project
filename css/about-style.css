@@ -79,14 +79,14 @@
     text-align: center;
     line-height: 1.5rem;
   }
-  
+
   .contactus {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem 2.5rem;
   }
-  
+
   .contactus p {
     font-size: 1.15rem;
     padding-bottom: 0.5rem;
@@ -152,40 +152,40 @@
     flex-direction: column;
     border-bottom: 0.5px solid #b3b3b3;
   }
-  
+
   .sectionTitle {
     padding: 1rem 0 2rem 0;
   }
-  
+
   .sectionTitle h2 {
     color: #000;
     text-align: center;
     padding-bottom: 0.8rem;
     font-size: 2.5rem;
   }
-  
+
   .sectionTitle hr {
     margin: 0 48%;
     border: 0.5px solid #ec5242;
   }
-  
+
   .logoContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
   }
-  
+
   .logoContainer p {
     font-size: 0.9rem;
     font-weight: 500;
     text-align: center;
   }
-  
+
   .temp {
     display: inline-block;
   }
-  
+
   .logoImg {
     width: 20rem;
     padding: 1.5rem 2.5rem;
@@ -229,10 +229,13 @@
   position: relative;
   width: 100%;
   height: 30vh;
-  background-image: linear-gradient(45deg,
-  rgba(241, 35, 28, 0.5),
-  rgba(187, 128, 2, 0.5)),
-  url(../images/2021.png);
+  background-image:
+    linear-gradient(
+      45deg,
+      rgba(241, 35, 28, 0.5),
+      rgba(187, 128, 2, 0.5)
+    ),
+    url(../images/2021.png);
   background-size: cover;
 }
 
@@ -240,14 +243,17 @@
   position: relative;
   width: 100%;
   height: 30vh;
-  background-image: linear-gradient(45deg,
-  rgba(241, 35, 28, 0.5),
-  rgba(187, 128, 2, 0.5)),
-  url(../images/2022.jpg);
+  background-image:
+    linear-gradient(
+      45deg,
+      rgba(241, 35, 28, 0.5),
+      rgba(187, 128, 2, 0.5)
+    ),
+    url(../images/2022.jpg);
   background-size: cover;
 }
 
-.imgInfo{
+.imgInfo {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -274,27 +280,27 @@
   .pastConfrence {
     padding: 2rem 2rem;
   }
-  
+
   .pastConfrence h2 {
     font-size: 2.5rem;
   }
-  
+
   .description {
     font-size: 1rem;
     padding: 1rem 1.5rem 4rem;
   }
-  
+
   .pastSummit {
     padding: 0 15rem 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
   }
-  
+
   .confrence2021 {
     height: 40vh;
   }
-  
+
   .confrence2022 {
     height: 40vh;
   }
@@ -358,7 +364,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .aboutpageFooter img {
     width: 10rem;
   }

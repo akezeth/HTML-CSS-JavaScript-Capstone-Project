@@ -1,6 +1,3 @@
-const featuredSpeakers = document.querySelector('.featuredSpeakersContainer');
-let mobile = window.innerWidth < 768;
-
 const speakers = [
   {
     name: 'Eng. Ayenew Yihune',
@@ -57,7 +54,7 @@ function renderSpeakers() {
   const mainContainer = document.querySelector('.featuredSpeakersContainer');
   const speakersContainer = createElement('div', 'speakersContainer');
 
-  let cardContent = `<ul class="speakers">`;
+  let cardContent = '<ul class="speakers">';
 
   for (let i = 0; i < speakers.length; i += 1) {
     const speakerInfo = speakers[i];

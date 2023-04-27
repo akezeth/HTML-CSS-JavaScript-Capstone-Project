@@ -5,7 +5,7 @@ const logo = document.querySelector('.logo');
 const headline = document.querySelector('#headline');
 
 // ============================= toggle hamburger icon ===========================
-menuIcon.addEventListener('click', function () {
+menuIcon.addEventListener('click', () => {
   menuIcon.classList.toggle('fa-xmark');
   navBottom.classList.toggle('active');
   navbar.classList.toggle('active');
