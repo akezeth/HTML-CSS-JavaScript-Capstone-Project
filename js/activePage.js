@@ -1,8 +1,8 @@
-const activePage = window.location.href;
+let activePage = window.location.href;
 const githublink = 'https://akezeth.github.io/HTML-CSS-JavaScript-Capstone-Project/';
 
 if (githublink === activePage) {
-  activePage = activePage.concat('index.html')
+  activePage = activePage.concat('index.html');
 }
 
 document.querySelectorAll('nav a').forEach((link) => {
