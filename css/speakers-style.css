@@ -2,6 +2,9 @@
   background-color: #fff;
   padding-top: 3rem;
   padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .featuredSpeakersContainer h2 {
@@ -86,15 +89,35 @@
 }
 
 .seeMoreBtn {
-  margin: 0 1rem;
+  margin: 0 auto;
   padding: 0.5rem;
   width: 95%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #272a31;
+}
+
+.seeMoreBtn i {
+  color: #ec5242;
+  font-size: 1.1rem;
 }
 
 .less {
   margin: 0 1rem;
   padding: 0.5rem;
   width: 95%;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #272a31;
+}
+
+.less i {
+  color: #ec5242;
+  font-size: 1.1rem;
 }
 
 @media (min-width: 600px) {

@@ -81,8 +81,8 @@ function renderSpeakers() {
   }
 
   cardContent += `</ul>
-        <button class="seeMoreBtn">See More&nbsp;&nbsp;<i class="fa-solid fa-angle-down down-arrow"></i></button>
-        <button class="speaker3 less">See Less&nbsp;&nbsp;<i class="fa-solid fa-angle-up down-arrow"></i></button>`;
+        <button class="seeMoreBtn">MORE&nbsp;&nbsp;<i class="fa-solid fa-angle-down down-arrow"></i></button>
+        <button class="speaker3 less">LESS&nbsp;&nbsp;<i class="fa-solid fa-angle-up down-arrow"></i></button>`;
   speakersContainer.innerHTML = cardContent;
   mainContainer.appendChild(speakersContainer);
 
