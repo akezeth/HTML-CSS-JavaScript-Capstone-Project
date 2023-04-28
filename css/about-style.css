@@ -1,0 +1,377 @@
+.subtitle.about {
+  color: #ec5242;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.mainTitle.about {
+  font-weight: bold;
+  color: #ec5242;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.aboutInfo {
+  margin: 0 0.8rem 1rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.part1 {
+  font-size: 1rem;
+  color: #515151;
+  font-weight: 500;
+  text-align: center;
+}
+
+.part2 {
+  display: none;
+}
+
+.contactus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2.5rem 0;
+  color: #515151;
+}
+
+.contactus p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.contactus a {
+  color: #000;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .subtitle.about {
+    display: none;
+  }
+
+  .mainTitle.about {
+    font-weight: bold;
+    color: #ec5242;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .aboutInfo {
+    margin: 1rem 10rem;
+    background-color: #fff;
+    padding: 1.5rem;
+  }
+
+  .part2 {
+    display: inline;
+    font-size: 1rem;
+    color: #515151;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  .contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+  }
+
+  .contactus p {
+    font-size: 1.15rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+.logoInfo {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 0.5px solid #b3b3b3;
+  border-bottom: 0.5px solid #b3b3b3;
+}
+
+.sectionTitle h2 {
+  padding: 1rem 1.5rem;
+  color: #000;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  font-size: 2rem;
+}
+
+.sectionTitle hr {
+  margin: 0 45%;
+  border: 0.5px solid #ec5242;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logoContainer p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  color: #3d3c3c;
+}
+
+.temp {
+  display: none;
+}
+
+.logoImg {
+  width: 20rem;
+  padding: 1.5rem 2.5rem;
+  border: 0.5px solid #b3b3b3;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .logoInfo {
+    background-color: #fff;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 0.5px solid #b3b3b3;
+  }
+
+  .sectionTitle {
+    padding: 1rem 0 2rem 0;
+  }
+
+  .sectionTitle h2 {
+    color: #000;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: 2.5rem;
+  }
+
+  .sectionTitle hr {
+    margin: 0 48%;
+    border: 0.5px solid #ec5242;
+  }
+
+  .logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .logoContainer p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .temp {
+    display: inline-block;
+  }
+
+  .logoImg {
+    width: 20rem;
+    padding: 1.5rem 2.5rem;
+    border: 0.5px solid #b3b3b3;
+    margin: 0 auto;
+  }
+}
+
+.pastConfrence {
+  background-color: #fff;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pastConfrence .sectionTitle {
+  padding-bottom: 1rem;
+}
+
+.pastConfrence h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  color: #3d3c3c;
+}
+
+.pastSummit {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.confrence2021 {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-image:
+    linear-gradient(
+      45deg,
+      rgba(241, 35, 28, 0.5),
+      rgba(187, 128, 2, 0.5)
+    ),
+    url(../images/2021.png);
+  background-size: cover;
+}
+
+.confrence2022 {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-image:
+    linear-gradient(
+      45deg,
+      rgba(241, 35, 28, 0.5),
+      rgba(187, 128, 2, 0.5)
+    ),
+    url(../images/2022.jpg);
+  background-size: cover;
+}
+
+.imgInfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  width: 100%;
+}
+
+.imgInfo h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.imgInfo p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .pastConfrence {
+    padding: 2rem 2rem;
+  }
+
+  .pastConfrence h2 {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 1rem 1.5rem 4rem;
+  }
+
+  .pastSummit {
+    padding: 0 15rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .confrence2021 {
+    height: 40vh;
+  }
+
+  .confrence2022 {
+    height: 40vh;
+  }
+}
+
+.partnersCtn.about {
+  background-color: #272a31;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partnersCtn.about h2 {
+  color: #b3b3b3;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.partnersCtn.about hr {
+  margin: 0 48%;
+  border: 0.5px solid #ec5242;
+}
+
+.partnerList.about {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .partnersCtn.about {
+    display: none;
+  }
+}
+
+.aboutpageFooter {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutpageFooter img {
+  width: 5rem;
+}
+
+.aboutpageFooter p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .aboutpageFooter {
+    background-color: #000;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .aboutpageFooter img {
+    width: 10rem;
+  }
+
+  .aboutpageFooter p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
